@@ -22,7 +22,7 @@ export default {
     getNetworks() {
       axios
         .get(
-          "https://statttistics.measurementlab.net/v0/NA/US/US-MD/2020/histogram_daily_stats.json"
+          "https://statistics.measurementlab.net/v0/NA/US/US-MD/2020/histogram_daily_stats.json"
         )
         .then((response) => {
           console.log(response.data);
